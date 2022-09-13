@@ -5,5 +5,5 @@ blob_routes = APIRouter()
 
 
 @blob_routes.post("/upload")
-def upload(container: str = Form(...), file: UploadFile = File(...));
+def upload(container: str = Form(...), file: UploadFile = File(...)):
 
